@@ -5,7 +5,6 @@ if(num%2==0):
 else:
    print("odd")
 
-print("rafi")
 
 a=int(input("Enter your first number: "))
 b=int(input("Enter your second number: "))
