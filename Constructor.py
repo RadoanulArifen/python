@@ -13,6 +13,6 @@ Rahim=student(101,3.5)
 Rahim.display()
 
 Arifen=student(5284,3.55)
-
+print("rafi")
 Arifen.display()
 
