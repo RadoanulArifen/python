@@ -7,3 +7,5 @@ else:
     
 if marks>=90:
     print("Grade A")
+    
+    
