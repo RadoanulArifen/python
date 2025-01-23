@@ -4,3 +4,4 @@ temp=a
 a=b
 b=temp
 print(a,b)
+print("a=",a)
