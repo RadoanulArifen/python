@@ -21,4 +21,5 @@ print(str3.replace("Arifen","Fahim"))
 print(str3.split())
 print(str3.split("is"))
 print(str3.splitlines())
- 
+print(str3.strip())
+print(str3.lstrip())
