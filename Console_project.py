@@ -1,0 +1,28 @@
+name=input("Enter your name: ")
+print("Hello,"+name+"!")
+
+num1=int(input(name+" Enter the first number: "))
+num2=int(input(name+" Enter the second number: "))
+print("The sum of the numbers is: ",num1+num2)
+print("The difference of the numbers is: ",num1-num2)
+print("The product of the numbers is: ",num1*num2)
+print("The division of the numbers is: ",num1/num2)
+print("The remainder of the numbers is: ",num1%num2)
+print("The average of the numbers is: ",(num1+num2)/2)
+print("The square of the first number is: ",num1**2)
+print("The square of the second number is: ",num2**2)
+print("The cube of the first number is: ",num1**3)
+print("The cube of the second number is: ",num2**3)
+print("The square root of the first number is: ",num1**0.5)
+print("The square root of the second number is: ",num2**0.5)
+print("The cube root of the first number is: ",num1**(1/3))
+print("The cube root of the second number is: ",num2**(1/3))
+print("The first number raised to the power of the second number is: ",num1**num2)
+print("The second number raised to the power of the first number is: ",num2**num1)
+
+
+principal=float(input("Enter the principal amount: "))
+rate=float(input("Enter the rate of interest: "))
+time=float(input("Enter the time period: "))
+simple_interest=(principal*rate*time)/100
+print("The simple interest is: ",simple_interest)
