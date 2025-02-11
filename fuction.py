@@ -10,3 +10,10 @@ def subtract(a, b):
 a=10
 b=5
 print(subtract(a, b))
+
+
+def add_ten(n):
+    m=n+10
+    return m
+another=add_ten(10)
+print(another)
