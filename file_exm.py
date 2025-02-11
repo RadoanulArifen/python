@@ -18,3 +18,9 @@ file=open(filename,"a")
 content=file.write("\nThis is new content with previous content\n")
 file.close()
 print(content)
+
+#read file in morden rule
+filename="input.txt"
+with open(filename) as f:
+    content=f.read()
+    print(content)
