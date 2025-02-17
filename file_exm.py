@@ -24,3 +24,18 @@ filename="input.txt"
 with open(filename) as f:
     content=f.read()
     print(content)
+
+
+filename="input.txt"
+file=open(filename)
+content=file.read()
+file.close()
+print(content)
+
+filename="input.txt"
+file=open(filename,"w")
+content=file.write("jdshfbwkusgf")
+file.close()
+print(content)
+
+
