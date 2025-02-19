@@ -52,9 +52,17 @@ class Cart:
         
         print(f"Total: $ {self.calculate_total()}") 
         
-        
-        
-        
+
+#abstract_class
+from abc import ABC,abstractmethod
+class payment(ABC):
+    @abstractmethod
+    def pay():
+        pass
+
+class creditclass(payment):
+    pass
+          
         
         
         
