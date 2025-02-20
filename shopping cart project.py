@@ -60,8 +60,9 @@ class payment(ABC):
     def pay():
         pass
 
-class creditclass(payment):
-    pass
+class creditcard(payment):
+    def pay(self,ammount):
+        print(f"paid ${ammount} using credit card")
           
         
         
@@ -76,3 +77,6 @@ abdul_cart.add_to_cart(laptop,2)
 abdul_cart.add_to_cart(phone,1)
 
 abdul_cart.display_cart()
+
+credit_card=creditcard()
+credit_card.pay(abdul_cart.calculate_total())
