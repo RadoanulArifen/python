@@ -6,3 +6,5 @@ b=temp
 print(a,b)
 print("a=",a)
 
+print(a)
+
