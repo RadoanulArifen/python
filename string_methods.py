@@ -4,4 +4,8 @@ print(a.upper())
 print(a.lower())
 print(a.swapcase())
 b = 'arifen'
-print(b.title())
+print(b.title()) 
+
+var = "My name is Arifen"
+var1= var.replace("Arifen","Radoanul")
+print(var1) #replace anything
